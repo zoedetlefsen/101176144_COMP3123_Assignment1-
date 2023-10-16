@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const app = express();
 const SERVER_PORT = 8089;
-const DB_CONNECTION_STRING = "mongodb://atlas-sql-6525e71a2a51b929abd4e267-yhpt7.a.query.mongodb.net/COMP3123_Assignment1?ssl=true&authSource=admin";
+const DB_CONNECTION_STRING = "mongodb+srv://root:FCJKbWXefIB6kSgq@cluster0.bs6u4dl.mongodb.net/";
 
 mongoose.connect(DB_CONNECTION_STRING, {
     useNewUrlParser: true,
